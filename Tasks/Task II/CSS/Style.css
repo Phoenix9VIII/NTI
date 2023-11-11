@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body { 
+    background-color: black;
+}
+
+.container {
+    width: 915px;
+    margin: auto;
+   
+}
+
+.header { 
+
+    background-image: url(../Images/bg.jpg);
+    height: 120px;
+    background-repeat: no-repeat;
+   
+}
+
+.ic { 
+    float: right;
+    opacity: 30%;
+}
+
+.ic:hover {
+    opacity: 100%;
+}
+
+.li { 
+    color: rgb(163, 163, 163);
+    display: inline-block;
+    padding: 5px;
+}
+
+.li:hover {
+    background-color: rgb(24, 191, 233);
+    color: white;
+}
+
+.main { 
+    background-color: rgb(192, 189, 189);
+ 
+    
+}
+
+.highimg { 
+    padding: 10px;
+}
+
+.Welcome {
+    color: rgb(6, 118, 192);
+    margin: 10px;
+}
+
+.img1 {
+margin: 20px;
+padding: 3px;
+border: rgb(240, 238, 238) solid 3px;
+    
+}
+
+.img2 {
+margin: 15px;
+padding: 3px;
+border: rgb(240, 238, 238) solid 3px;
+    
+}
+
+.News {
+color: rgb(6, 118, 192);
+
+}
+
+.aside {
+
+width: 200px;
+right: 495px;
+float: right;
+}
+
+.submain {
+
+    width: 700px;
+    float: center;
+}
+
+.fix {
+    clear: both;
+}
+
+h5 { 
+margin-bottom: 0px;
+color: rgb(221, 86, 37);
+}
+
+span {
+    color: rgb(25, 117, 192);
+}
+
+.bot  {
+color: black;
+    text-align: center;
+       display: block;
+       margin: 3px;
+}

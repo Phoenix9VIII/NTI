@@ -1,0 +1,373 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imgg {
+    padding: 30px 0px 0px 70px;
+    width: 120px;
+    height: 50px;
+
+}
+
+.topbar {
+    
+    padding: 40px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+}
+
+.nav p {
+    display: inline-block;
+padding: 10px;
+font-family: "Georgia";
+color: rgb(19, 108, 190);
+
+}
+
+.nav p:hover {
+    background-color: rgb(83, 226, 236);
+    color: rgb(255, 255, 255);
+   
+
+}
+
+.blog {
+    display: inline;
+   width: 70px;
+   height: 35px;
+    background-size: 300px;
+  margin-left: 35px;
+    background-color: orange;
+    border-radius: 5px;
+  line-height: 35px;
+  text-align: center;
+    color: white;
+}
+
+.blog:hover {
+    background-color: rgb(247, 236, 187);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.search {
+    padding-top:40px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+
+}
+
+.search p {
+   display: flex;
+   justify-content: center;
+   margin: 7px;
+   font-family: "Georgia";
+   color: rgb(19, 108, 190);
+}
+
+.search p:hover {
+    color: orange;
+}
+.search i {
+   display: flex;
+   justify-content: center;
+   margin: 7px;
+color: rgb(19, 108, 190);
+
+}
+.search i:hover {
+    color: orange;
+ 
+ }
+.sec1 {
+
+    background-image: url(../images/bg.jpg);
+    background-size: 1956px 500px;
+    display: flex;
+    height: 500px;
+    
+}
+
+.sec1 .container {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.sec1 .container h1 {
+    display: flex;
+margin-bottom: 50px;
+
+ color: rgb(255, 255, 255);
+ font-family: "Georgia";
+font-size: 300%;
+justify-content: center;
+
+}
+
+.learn1{
+ 
+    width: 300px;
+    height: 70px;
+     background-size: 300px;
+ margin: auto;
+ margin-bottom: 70px;
+     background-color: rgb(243, 129, 35);
+    border-radius: 2px;
+   line-height: 70px;
+   text-align: center;
+     color: white;
+     font-family: "Georgia";
+     font-size: 200%;
+ }
+ 
+ .learn1:hover {
+     background-color: rgb(248, 205, 64);
+ }
+ 
+ .middle {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+
+ .middle h1 {
+    margin-top: 30px;
+    font-size: 250%;
+    font-family: "Georgia";
+    color: rgb(8, 170, 211);
+    margin-bottom: 30px;
+ }
+
+ .mcontent {
+    width: 1024px;
+    height: 950px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .mleft {
+    width: 500px;
+    border-right: 1px solid;
+    height: 900px;
+ }
+
+ .mleft p {
+    margin: 15px 15px 15px 0px;
+ }
+
+
+.box {
+    width: 350px;
+    height: 30px;
+}
+
+.messg {
+    width: 350px;
+    height: 300px;
+}
+
+.aftertext {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.aftertext div {
+    margin: 20px;
+}
+
+.mrm {
+    
+
+  margin-left: 50%;
+     color: white;
+     background-color: rgb(31, 81, 173);
+     width:70px;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+ 
+ }
+
+ .mrm:hover {
+    background-color: chocolate;
+ }
+
+
+ .mright {
+    width: 500px;
+ }
+
+.rm1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.rm1side {
+    margin: 20px 0px 0px 20px;
+}
+ .icons {
+margin-left: 60px ;
+margin-top: 21px;
+    background-color: rgb(143, 142, 142);
+    height: 150px;
+    width: 45px;
+    border-radius: 5px;
+    
+ }
+
+ .icons i {
+  color: white;
+    text-align: center;
+    padding: 6px;
+    margin-left:9px;
+    margin-top: 15px;
+    position: relative;
+   
+ }
+
+.rm2 {
+   margin: 70px 0px 50px 70px;
+   border: 1px solid chocolate;
+
+}
+
+.downicons {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+
+.rm3h {
+    text-align: center;
+    font-size: 110%;
+    margin: 0px 0px 20px 70px;
+}
+
+.rm3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 70px;
+  
+}
+
+
+
+
+.seventh {
+    height:auto;
+    background-color: rgb(15, 27, 54);
+ 
+ }
+
+ .container5 {
+    width: 1024px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    
+ }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ }
+
+ .footer .div {
+    width: 350px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+ }
+
+ .footer   h3 {
+    color: chocolate;
+padding: 15px 0px;
+    font-size: 150%;
+  
+
+ }
+
+ .f1 {
+    color: white;
+   margin-top: 10px;
+ }
+ .f2{
+    color: rgb(30, 177, 235);
+ }
+ .f3 {
+    color: white;
+    margin-bottom: 15px;
+ }
+
+
+ .tex {
+
+    width: auto;
+    height: 30px;
+    margin-bottom:15px ;
+ }
+
+ .sign {
+    width: 30%;
+    height: 25px;
+    
+ }
+
+
+.f33 {
+    
+    width: 350px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.f33 img {
+ 
+    width: 20%;
+    height: 20%;
+    margin-right: 15px;
+}
+
+.f33 p {
+
+    color: white;
+    
+}

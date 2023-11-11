@@ -1,0 +1,178 @@
+/* @media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} } */
+/*  */
+/*  */
+/* @media (max-width: 600px){
+@media (min-width: 601px){
+@media (min-width: 768px){
+@media (min-width: 992px){ */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+body{
+    font-family: Georgia;
+}
+.r1 {
+    height: 40px;
+}
+
+.i1 {
+    margin: 0px 10px;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right:40px;
+    cursor: pointer;
+    display: none;
+  }
+#check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    .checkbtn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background:#2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all.5s;
+    }
+    .r2 ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    #check:checked ~ ul{
+      left:0;
+    }
+  }
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+.s1{
+    height: 750px;
+}
+.c1 {
+   margin-bottom: 950px;
+}
+/* @media only screen and (max-width: 700px){ */
+.c1 h2 {
+    color:  rgb(233, 200, 17);
+    
+}
+
+.b1 {
+    margin-right: 50px;
+    margin-top: 50px;
+    
+}
+.b2 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.img2 {
+ width: 70%;
+
+}
+
+
+.midd {
+    margin-top: 100px;
+}
+.midd2 {
+    margin-top: 100px;
+}
+
+.midd2-2 {
+    margin-top: 50px;
+}
+
+.bg {
+   background-color: rgb(255, 196, 0);
+}
+
+.imgbot {
+    width: 50%;
+    margin-bottom: 20px;
+}
+.midd3 {
+    margin-top: 50px;
+}
+.midd3-3 {
+    margin-top: 50px;
+}
+
+.bg2 {
+    background-color: rgb(255, 196, 0);
+ }
+
+ .mid4 {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+
+ .inp1{
+    width: 300px;
+    margin: 2px;
+ }
+ .inp2{
+    width: 400px;
+    margin: 2px;
+ }
+ .inp3{
+    width: 100px;
+    margin: 2px;
+    margin-left: 20px;
+    color: white;
+ }
+
+
+ .foot {
+    background-image: url(../images/6.png);
+    
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+ }
+
+ .uphead {
+    margin-bottom: 30px;
+ }
+
+ .circ {
+    margin: 5px;
+
+}
+
+ul {
+   
+    padding-left: 19px;
+}
+
+.ff {
+    height: 40px;
+    color: white;
+    line-height: 40px;
+}
+/* } */

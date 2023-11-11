@@ -1,0 +1,13 @@
+#todo-list {
+    margin-bottom: 10px;
+  }
+
+  .bg-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+
+  .bg-warning {
+    background-color: #ffc107;
+    color: #000;
+  }
